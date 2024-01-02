@@ -1,5 +1,6 @@
 package th.ac.ku.kps.eng.cpe.entity;
 
+import java.io.Serializable;
 //import javax.servlet.http.HttpServlet;
 import java.util.*;
 
@@ -8,7 +9,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 
 
-public class Customer //extends HttpServlet 
+public class Customer implements Serializable
 {
 	@JsonProperty("dee")
 	private String name;

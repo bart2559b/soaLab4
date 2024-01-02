@@ -1,9 +1,10 @@
 package th.ac.ku.kps.eng.cpe.dao;
+import java.io.Serializable;
 import java.util.ArrayList;
 
 import th.ac.ku.kps.eng.cpe.entity.Customer; 
 
-public class CustomerDAO {
+public class CustomerDAO implements Serializable{
 
 	public CustomerDAO() {
 		// TODO Auto-generated constructor stub
